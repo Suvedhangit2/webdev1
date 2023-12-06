@@ -1,0 +1,23 @@
+div{
+    height:200px;
+    width: 200px;
+}
+#first{
+    background-color: lightseagreen;  
+    border:10px solid black;  
+    padding:20px;
+}
+#second{
+    background-color: yellow;
+    border:black solid;
+    border-width: 20px 10px;
+    margin-left: 260px;
+}
+#third{
+    background-color: lightcoral;
+    border: solid black;
+    border-width:10px;
+    height:150px;
+    width:150px;
+    margin-left:90px;
+}
