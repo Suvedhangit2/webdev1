@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Flexbox</title>
+  <style>
+    .flex-container {
+      display: flex;
+    }
+
+    .card {
+      background: blue;
+      border: 30px solid white;
+      height: 100px;
+      flex: 1;
+    }
+
+    .first {
+      flex: 2;
+    }
+
+    .second {
+      flex: 0.5;
+    }
+
+    .flexx-container{
+      display:flex;
+    }
+    .cards{
+      background-color: red;
+      border:10px solid black;
+      height:50px;
+      flex:1;
+    }
+    .firsts{
+      flex:1;
+    }
+    .seconds{
+      flex:2;
+    }
+    .one{
+      flex:0.3;
+    }
+    .two{
+      flex:2.5;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>CSS Flexbox</h1>
+  <div class="flex-container">
+    <div class="first card"></div>
+    <div class="second card"></div>
+    <div class="card"></div>
+    <div class="card"></div>
+  </div>
+  <div class="flexx-container">
+    <div class="firsts cards"></div>
+    <div class="seconds cards"></div>
+    <div class="cards one"></div>
+    <div class="cards two"></div>
+  </div>
+
+
+</body>
+
+</html>
